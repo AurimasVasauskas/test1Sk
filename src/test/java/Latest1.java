@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.beans.Visibility;
+import java.sql.SQLOutput;
 import java.util.concurrent.TimeUnit;
 
 public class Latest1 {
@@ -44,6 +45,7 @@ public class Latest1 {
         String headeris=narsykle.findElement(By.id("firstHeading")).getText();
         Assert.assertEquals(headeris,"Dalailama");
         System.out.println("headeris yra "+ headeris);
+        System.out.println("Dalailama valdo");
     }
 
     @Test(enabled = false)
