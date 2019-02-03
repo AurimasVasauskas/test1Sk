@@ -47,7 +47,7 @@ public class Latest1 {
         System.out.println("headeris yra "+ headeris);
         System.out.println("Dalailama valdo");
         System.out.println("Gitas valdo");
-        System.out.println("Trecias push");
+        System.out.println("Trecias push ");
     }
 
     @Test(enabled = false)
