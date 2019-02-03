@@ -46,6 +46,7 @@ public class Latest1 {
         Assert.assertEquals(headeris,"Dalailama");
         System.out.println("headeris yra "+ headeris);
         System.out.println("Dalailama valdo");
+        System.out.println("Gitas valdo");
     }
 
     @Test(enabled = false)
